@@ -263,7 +263,7 @@ title: Project
 </head>
 <body>
 	<div id="exhibition">
-        <div class="featured element" style="top: 0px; left: 0px;
+        <div class="element" style="top: 0px; left: 0px;
             background-image: url('images/savior.png')">
             <div class="container cover" style="position:absolute;"><div class="name"> SAVIORS </div></div>
             <div class="desc"><div class="container"> Four-player cooperative tactical shooter. Save the world! </div></div>
