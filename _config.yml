@@ -1,9 +1,15 @@
+# Dependencies
+markdown:         kramdown
+kramdown:
+  input:          GFM
+gems:
+
 # Permalinks
 permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Orange Club
+title:            ÈŸ…Á
 tagline:          Something
 url:              http://orangeclub.github.io
 paginate:         1
