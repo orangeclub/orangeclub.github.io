@@ -10,8 +10,8 @@ title: Project
     <meta content="authenticity_token" name="csrf-param" />
 <meta content="QmE0+eGX9YG41KrjM7AjeR/in9/URUgWp5Smigkh6D0=" name="csrf-token" />
     <script src="js/jquery-1.7.1.min.js"></script>
-	<script href = "js/project.js"></script>
-	<>
+	<script src = "js/project.js"></script>
+	
 
     <script>
 
