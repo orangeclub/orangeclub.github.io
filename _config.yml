@@ -3,13 +3,13 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            橘社
-tagline:          受命不迁，有以自乐
+title:            Orange Club
+tagline:          Something
 url:              http://orangeclub.github.io
 paginate:         1
 baseurl:          /
 author:
-  name:           橘社
+  name:           orange club
   url:            
   email:          ayame9joe@gmail.com
 
