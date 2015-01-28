@@ -1,0 +1,22 @@
+markdown: rdiscount
+pygments: true
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            橘社
+tagline:          受命不迁，有以自乐
+url:              http://orangeclub.github.io
+paginate:         1
+baseurl:          /
+author:
+  name:           
+  url:            http://orangeclub.github.io
+  email:          ayame9joe@gmail.com
+
+# Custom vars
+version:          1.0.0
+github:
+  repo:           https://github.com/orangeclub/orangeclub.github.io
