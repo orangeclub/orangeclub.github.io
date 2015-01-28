@@ -12,16 +12,36 @@
           <small>{{ site.tagline }}</small>
         </h3>
       </header>
-
+	  <nav class="sidebar-nav">
+	    <a class="sidebar-nav-item active" href="/">Home</a>
+		
+	    <a class="sidebar-nav-item" href="/project">Project</a>
+		<a class="sidebar-nav-item" href="/about/">About</a>
+	      
+      
+    	<span class="sidebar-nav-item">Currently v1.0.0</span>
+	  </nav>
       <main>
         {{ content }}
-      </main>
-
+	  </main>
       <footer class="footer">
         <small>
-          &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
+          &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. 橘社 All rights reserved.
         </small>
-      </footer>
+	  </footer>  
+      
+    
+      
+        
+      
+    
+      
+    
+
+    
+
+
+
     </div>
 
   </body>
