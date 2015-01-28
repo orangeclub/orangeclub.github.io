@@ -1,19 +1,16 @@
-markdown: rdiscount
-pygments: true
-
 # Permalinks
 permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            éÙÉç
-tagline:          ÊÜÃü²»Ç¨£¬ÓĞÒÔ×ÔÀÖ
-url:              http://orangeclub.github.io
+title:            æ©˜ç¤¾
+tagline:          å—å‘½ä¸è¿ï¼Œæœ‰ä»¥è‡ªä¹
+url:              https://orangeclub.github.io
 paginate:         1
 baseurl:          /
 author:
   name:           
-  url:            http://orangeclub.github.io
+  url:            https://orangeclub.github.io
   email:          ayame9joe@gmail.com
 
 # Custom vars
