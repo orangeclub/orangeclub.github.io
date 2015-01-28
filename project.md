@@ -1,7 +1,4 @@
----
-layout: page
-title: Project
----
+
 
 <html>
 <head>
