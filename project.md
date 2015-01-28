@@ -2,6 +2,15 @@
 layout: page
 title: Project
 ---
+
+<html>
+<head>
+    <meta charset="utf-8"> 
+    <title>God Hates Nerds</title>
+    
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="QmE0+eGX9YG41KrjM7AjeR/in9/URUgWp5Smigkh6D0=" name="csrf-token" />
+    <script src="javascripts/jquery.js"></script>
 <style>
 	#exhibition {
 	    margin-left: -40px;
@@ -164,6 +173,7 @@ title: Project
 
     });
     </script>
+</head>
 <body>
 	<div id="exhibition">
         <div class="featured element" style="top: 0px; left: 0px;
