@@ -1,10 +1,8 @@
-
-
 ---
 layout: page
 title: Project
 ---
-<html>
+
 <head>
 
     <meta charset="utf-8"> 
@@ -282,4 +280,3 @@ title: Project
      
 	
 </body>
-</html>
