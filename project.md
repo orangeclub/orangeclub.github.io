@@ -1,7 +1,7 @@
 
 
 ---
-layout: pages
+layout: page
 title: Project
 ---
 <html>
