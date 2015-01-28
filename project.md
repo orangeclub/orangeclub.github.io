@@ -5,122 +5,14 @@ title: Project
 
 <html>
 <head>
+
     <meta charset="utf-8"> 
-    <title>God Hates Nerds</title>
-    
+	<link href ="public/css/metro.css" media="all" rel="stylesheet">
     <meta content="authenticity_token" name="csrf-param" />
 <meta content="QmE0+eGX9YG41KrjM7AjeR/in9/URUgWp5Smigkh6D0=" name="csrf-token" />
     <script src="javascripts/jquery.js"></script>
-<style>
-	#exhibition {
-	    margin-left: -40px;
-	    margin-top: -14px;
-	    width: 600px;
-	    position: relative;
-	}
-	
-	#exhibition .element {
-	    width: 200px;
-	    height: 150px;
-	    background: #222;
-	    box-shadow: black 0px 0px 16px;
-	    border: solid 1px #111;
-	    position: absolute;
-	    overflow: hidden;
-	
-	    margin: 40px;
-	
-	    color: #aaa;
-	    font-size: 14px;
-	
-	    cursor: pointer;
-	}
-	
-	#exhibition .element .container {
-	    padding: 2px 10px;
-	}
-	
-	#exhibition .featured {
-	    width: 440px;
-	    height: 340px;
-	
-	    font-size: 16px;
-	}
-	
-	#exhibition .element .name {
-	    color: #aaa;
-	    margin-left: -2px;
-	    text-shadow: 2px 3px 2px #331;
-	    font: normal 30px DINEngschriftRegular;
-	}
-	
-	#exhibition .element .desc {
-	    background: rgba(0, 0, 0, 0.5);
-	    width: 100%;
-	    position: absolute;
-	    bottom: 0px;
-	
-	    display: none;
-	}
-	
-	#exhibition .featured .name {
-	    font-size: 50px;
-	}
-	
-	#exhibition .element .block {
-	    background: rgba(0, 0, 0, 0.8);
-	
-	    height: 100%;
-	    width: 100%;
-	    position: absolute;
-	
-	    display: none;
-	}
-	
-	#exhibition .element .wrapper {
-	    position: relative;
-	}
-	
-	#exhibition .element .links {
-	    margin: 0px;
-	    padding: 0px;
-	
-	    list-style: none;
-	    text-align: right;
-	
-	    font: normal 20px DINEngschriftRegular;
-	
-	    position: absolute;
-	    right: 10px;
-	    bottom: -2px;
-	}
-	
-	#exhibition .element .links li {
-	    display: inline-block;
-	    margin: 2px 8px;
-	    margin-right: 0px;
-	
-	    padding: 2px 6px;
-	    
-	}
-	
-	#exhibition .featured .links li {
-	    font-size: 30px;
-	    padding: 4px 8px;
-	    margin: 4px 8px;
-	    margin-right: 0px;
-	}
-	
-	#exhibition .links a:link, #exhibition .links a:visited, #exhibition .links a:active{
-		color: #9999ff;
-		text-decoration: none;
-	}
-	
-	#exhibition .links a:hover {
-	    color: white;
-	}
-</style>
-        <script>
+
+    <script>
     $(function() {
         $('.element').each(function (idx, raw_elem){
             var elem = $(raw_elem);
