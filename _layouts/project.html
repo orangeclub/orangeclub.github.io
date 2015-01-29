@@ -2,10 +2,7 @@
 layout: default
 ---
 
-<article class="project">
-  <h1 class="page-title">{{ page.title }}</h1>
-  {{ content }}
-</article>
+
 
 <head>
 这回呢
@@ -17,7 +14,7 @@ layout: default
 	<script src = "js/project.js"></script>
 	
 
-    <script>
+    <script type="text/javascript">
 
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-34648935-2']);
@@ -29,7 +26,7 @@ layout: default
          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
          })();
      </script>
-     <script>
+     <script type="text/javascript">
 
 
     $(document).ready(function() {
@@ -49,7 +46,7 @@ layout: default
         });
     });
     </script>
-    <script>
+    <script type="text/javascript">
     $(function() {
         $('.element').each(function (idx, raw_elem){
             var elem = $(raw_elem);
@@ -102,7 +99,7 @@ layout: default
 
     });
     </script>
-    <script>
+    <script type="text/javascript">
     $(function() {
         $('.element').each(function (idx, raw_elem){
             var elem = $(raw_elem);
@@ -266,7 +263,11 @@ layout: default
 	</style>
 </head>
 <body>
-	<div id="exhibition">
+
+<article class="project">
+  <h1 class="page-title">{{ page.title }}</h1>
+  {{ content }}
+<div id="exhibition">
         <div class="element" style="top: 0px; left: 0px;
             background-image: url('images/savior.png')">
             <div class="container cover" style="position:absolute;"><div class="name"> SAVIORS </div></div>
@@ -281,6 +282,8 @@ layout: default
                 </div>
             </div>
         </div>
+</article>
+	
      
 	
 </body>
