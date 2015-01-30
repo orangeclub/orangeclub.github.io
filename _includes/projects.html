@@ -1,0 +1,65 @@
+<head>
+
+<style>
+.project-item {
+	width: 500px;
+	height: 210px;
+    display: inline-block;
+    padding: 1em;
+   
+    text-decoration: none;
+    color: white;
+}
+img {
+    position: absolute;
+	width: 750px;
+	height: 150px;
+    z-index: -1;
+}
+.project-item {
+}
+.project-item:hover text{display:block;}
+.project-item text{color:white;display:none;}
+.h3{
+	width: 750px;
+	height: 150px;
+}
+.project-fields
+{
+    background: rgba(0, 0, 0, 0.8);
+
+    height: 150px;
+    width: 500px;
+    position: absolute;
+
+    display: none;
+}
+.li{
+margin-up: 6px;
+margin-down: 6px;
+}
+</style>
+</head>
+<div id="content" class="content-area clearfix">
+	<div id="project" class="project-area">
+	    <ul class="project-list">
+        {% for project in site.data.projects %}
+          <li class="project-item hvr-float-shadow" style="background-image: url({{ site.baseurl | append: '/img/' | append: project.img }})">
+              <div class="project-content">
+                    <div class="project-cover" title="{{project.name}}">
+                        <a href="{{project.url}}" target="_blank">
+					       <a href="{{project.url}}" target="_blank">{{project.name}}
+                        </a>
+				    </div>
+                    <h2 class="project-title"></a>
+					<img class="project-image" src="{{project.img}}" alt="">
+					</h2>
+                    <text class="project-fields">
+                        <font size = "2.5">{{project.description}}</font>
+                    </text>
+              </div>
+          </li>
+        {% endfor %}
+	    </ul>
+	</div>
+</div>

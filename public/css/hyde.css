@@ -32,7 +32,7 @@
  */
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Microsoft YaHei", Helvetica, Arial, sans-serif;
 }
 @media (min-width: 48em) {
   html {
@@ -248,3 +248,4 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
