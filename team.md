@@ -16,7 +16,17 @@ permalink: /team/
 
 Email: [grace.xiaoxw@gmail.com](grace.xiaoxw@gmail.com "grace.xiaoxw@gmail.com")
 
-Weibo: [@小河有馬蹄](http://www.weibo.com/u/2099853845 "@小河有馬蹄")
+Weibo: [@夏天珍珠梅](http://weibo.com/u/1668493177 "@夏天珍珠梅")
+
+**朝汐**
+
+这家伙很勤劳，所以他加班去了，还是什么也没留下。
+
+橘社头号美术。平面与室内设计双修。为人低调。*所以这一段是九补上的。*                                 
+
+Email: [and9@qq.com](and9@qq.com "and9@qq.com")
+
+Weibo: [@大马贼-](http://www.weibo.com/u/1668493177 "@大马贼-")
 
 **九**
 
