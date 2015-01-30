@@ -43,15 +43,36 @@ margin-down: 6px;
 <div id="content" class="content-area clearfix">
 	<div id="project" class="project-area">
 	    <ul class="project-list">
-        {% for project in site.data.projects %}
-          <li class="project-item hvr-float-shadow" style="background-image: url({{ site.baseurl | append: '/img/' | append: project.img }})">
+		<h2>雕虫</h2>
+        {% for project in site.data.diaochong %}
+          <li class="project-item hvr-grow" style="background-image: url({{ site.baseurl | append: '/img/' | append: project.img }})">
               <div class="project-content">
                     <div class="project-cover" title="{{project.name}}">
-                        <a href="{{project.url}}" target="_blank">
-					       <a href="{{project.url}}" target="_blank">{{project.name}}
-                        </a>
+                        <a href="{{project.url}}" target="_blank">{{project.name}}
+					      </a>
+						
 				    </div>
-                    <h2 class="project-title"></a>
+                    <h2 class="project-title">
+					<img class="project-image" src="{{project.img}}" alt="">
+					</h2>
+                    <text class="project-fields">
+                        <font size = "2.5">{{project.description}}</font>
+                    </text>
+              </div>
+          </li>
+        {% endfor %}
+	    </ul>
+<ul class="project-list">
+		<h2>格致</h2>
+        {% for project in site.data.gezhi %}
+          <li class="project-item hvr-grow" style="background-image: url({{ site.baseurl | append: '/img/' | append: project.img }})">
+              <div class="project-content">
+                    <div class="project-cover" title="{{project.name}}">
+                        <a href="{{project.url}}" target="_blank">{{project.name}}
+					      </a>
+						
+				    </div>
+                    <h2 class="project-title">
 					<img class="project-image" src="{{project.img}}" alt="">
 					</h2>
                     <text class="project-fields">
