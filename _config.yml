@@ -7,7 +7,7 @@ title:            橘社
 tagline:          受命不迁，有以自乐
 url:              https://orangeclub.github.io
 paginate:         1
-baseurl:          https://orangeclub.github.io/
+baseurl:          /
 author:
   name:           
   url:            https://orangeclub.github.io
