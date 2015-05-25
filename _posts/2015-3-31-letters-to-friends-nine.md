@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 三月给朋友的信
 author: 九
 ---
