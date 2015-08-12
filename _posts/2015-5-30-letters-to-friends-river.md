@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 四月给朋友的信（小河）
+title: 五月给朋友的信（小河）
 author: 小河
 ---
 五月末并不是在赶deadline中度过的，但是是在即将开始狂赶deadline的疲累中度过的。说疲累，也不知道是不是因为开始上班的缘故。
@@ -28,6 +28,7 @@ author: 小河
 5月28日 初稿
 6月1日 删改
 
+
 ---
 **小河**
 
@@ -40,5 +41,7 @@ author: 小河
 19世纪航海技术
 
 Email: [grace.xiaoxw@gmail.com](grace.xiaoxw@gmail.com "grace.xiaoxw@gmail.com")
+
+Weibo: [@夏天珍珠梅](http://weibo.com/u/1668493177 "@夏天珍珠梅")
 
 Weibo: [@夏天珍珠梅](http://weibo.com/u/1668493177 "@夏天珍珠梅")
